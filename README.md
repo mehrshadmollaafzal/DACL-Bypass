@@ -28,7 +28,7 @@ unsigned char shellcode[] = "";
 2. Run `notepad.exe` with normal user privileges.
 3. Run `vendor.exe` with Admin privileges.
 
-```sh
+```
 Vendor.exe
 Enter the Process name that you want to get Handle (e.g., powershell.exe): powershell.exe
 Enter the target Process name (e.g., notepad.exe): notepad.exe
