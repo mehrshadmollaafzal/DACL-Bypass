@@ -41,7 +41,10 @@ and write the address of the handle in AttackerPE code...
 ```
 
 4. Open **procexp64.exe** and copy the address of the handle (powershell.exe) from **notepad.exe**.
-5. Run `AttackerPE.exe` with normal user privileges.
+   
+   ![Screenshot](https://github.com/mehrshadmollaafzal/BypassDACL/blob/main/Screenshot_Procexp.png)
+   
+6. Run `AttackerPE.exe` with normal user privileges.
 
 ```sh
 AttackerPE.exe <address> <process name>
