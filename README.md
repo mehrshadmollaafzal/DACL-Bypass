@@ -62,6 +62,8 @@ Duplicating a handle in the source process requires that the source process alre
 
 [process-security-and-access-rights](https://learn.microsoft.com/en-us/windows/win32/procthread/process-security-and-access-rights)
 
+[DACLs_and_ACEs](https://learn.microsoft.com/en-us/windows/win32/secauthz/dacls-and-aces)
+
 Windows Internals Books
 
 Windows Kernel Programming Book
