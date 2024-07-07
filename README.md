@@ -52,6 +52,8 @@ AttackerPE.exe 0xFFFFB08D881EE080 notepad.exe
 
 Duplicating a handle in the source process requires that the source process already has that handle, meaning the **DACL was checked** once during the handle's **Creation/Opening**. When duplicating a handle from the source to the destination process, no security checks are performed, It means that even the SID of the destination process is not checked with DACL.
 
+![Diagram](https://github.com/mehrshadmollaafzal/BypassDACL/blob/main/Diagram.jpg)
+
 ## **References**
 
  [MSDN_DuplicateHandle](https://learn.microsoft.com/en-us/windows/win32/api/handleapi/nf-handleapi-duplicatehandle)
