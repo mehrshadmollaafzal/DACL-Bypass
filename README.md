@@ -47,7 +47,7 @@ AttackerPE.exe <address> <process name>
 AttackerPE.exe 0xFFFFB08D881EE080 notepad.exe
 ```
 
-### Duplicate Handle and Bypass DACL Check
+## Duplicate Handle and Bypass DACL Check
 
 Duplicating a handle in the source process requires that the source process already has that handle, meaning the **DACL was checked** once during the handle's **Creation/Opening**. When duplicating a handle from the source to the destination process, no security checks are performed, It means that even the SID of the destination process is not checked with DACL.
 
