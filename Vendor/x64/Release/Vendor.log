@@ -1,0 +1,6 @@
+﻿  VendorSource.cpp
+  Generating code
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+  All 116 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Vendor.vcxproj -> C:\Users\mehrs\Desktop\DACL\x64\Release\Vendor.exe

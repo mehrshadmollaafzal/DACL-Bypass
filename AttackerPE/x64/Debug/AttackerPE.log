@@ -1,0 +1,4 @@
+﻿  AttackerSource.cpp
+C:\Users\mehrs\source\repos\mytest_any\BypassDACL_DuplicateHandle\AttackerPE\AttackerSource.cpp(70,31): warning C4018: '<': signed/unsigned mismatch
+C:\Users\mehrs\source\repos\mytest_any\BypassDACL_DuplicateHandle\AttackerPE\AttackerSource.cpp(151,16): warning C4477: 'printf' : format string '%ws' requires an argument of type 'wchar_t *', but variadic argument 1 has type 'std::wstring'
+  AttackerPE.vcxproj -> C:\Users\mehrs\source\repos\mytest_any\BypassDACL_DuplicateHandle\x64\Debug\AttackerPE.exe

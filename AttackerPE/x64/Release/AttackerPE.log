@@ -1,0 +1,9 @@
+﻿  AttackerSource.cpp
+C:\Users\mehrs\Desktop\DACL\AttackerPE\AttackerSource.cpp(71,31): warning C4018: '<': signed/unsigned mismatch
+C:\Users\mehrs\Desktop\DACL\AttackerPE\AttackerSource.cpp(156,16): warning C4477: 'printf' : format string '%ws' requires an argument of type 'wchar_t *', but variadic argument 1 has type 'std::wstring'
+  Generating code
+  1 of 160 functions ( 0.6%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    4 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  AttackerPE.vcxproj -> C:\Users\mehrs\Desktop\DACL\x64\Release\AttackerPE.exe
