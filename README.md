@@ -48,7 +48,7 @@ and write the address of the handle in AttackerPE code...
 
 ```sh
 AttackerPE.exe <address> <process name>
-AttackerPE.exe 0xFFFFB08D881EE080 notepad.exe
+AttackerPE.exe 0xFFFFCE890F733080 notepad.exe
 ```
 
 ## Duplicate Handle and Bypass DACL Check (Core concept)
