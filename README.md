@@ -24,6 +24,8 @@ unsigned char shellcode[] = "";
 
 ### Steps to Execute
 
+Execute this code: [youtube Video](https://www.youtube.com/watch?v=BkHdezZufFA)
+
 1. Run `powershell.exe` with Admin privileges.
 2. Run `notepad.exe` with normal user privileges.
 3. Run `vendor.exe` with Admin privileges.  (vendor.exe is a vulnerable program made for testing. In the real scenario, it can be any program like openvpn.exe, vmware.exe)
@@ -50,7 +52,6 @@ and write the address of the handle in AttackerPE code...
 AttackerPE.exe <address> <process name>
 AttackerPE.exe 0xFFFFCE890F733080 notepad.exe
 ```
-![youtube](https://www.youtube.com/watch?v=BkHdezZufFA)
 
 ## Duplicate Handle and Bypass DACL Check (Core concept)
 
