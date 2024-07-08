@@ -26,7 +26,7 @@ unsigned char shellcode[] = "";
 
 1. Run `powershell.exe` with Admin privileges.
 2. Run `notepad.exe` with normal user privileges.
-3. Run `vendor.exe` with Admin privileges. (In the real scenario, it can be any program like openvpn.exe, vmware.exe)
+3. Run `vendor.exe` with Admin privileges.  (vendor.exe is a vulnerable program made for testing. In the real scenario, it can be any program like openvpn.exe, vmware.exe)
 
 ```
 Vendor.exe
