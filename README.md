@@ -50,6 +50,7 @@ and write the address of the handle in AttackerPE code...
 AttackerPE.exe <address> <process name>
 AttackerPE.exe 0xFFFFCE890F733080 notepad.exe
 ```
+![youtube](https://www.youtube.com/watch?v=BkHdezZufFA)
 
 ## Duplicate Handle and Bypass DACL Check (Core concept)
 
