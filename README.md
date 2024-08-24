@@ -1,4 +1,4 @@
-# BypassDACL
+# DACL-Bypass
 
 PoC for Bypassing DACL in Windows using DuplicateHandle.
 
