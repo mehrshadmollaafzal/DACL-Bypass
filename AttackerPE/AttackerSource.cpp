@@ -152,7 +152,6 @@ int main(int argc, char* argv[]) {
     DWORD pid = GetPIDByName(processName);
 
     if (pid != 0) {
-        std::wcout << L"PID of " << processName << L" is: " << pid << std::endl;
         printf("[+] PID of %ws is %d\n", processName, pid);
     }
     else {
