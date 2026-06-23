@@ -2,7 +2,7 @@
 
 PoC for Bypassing DACL in Windows using DuplicateHandle.
 
-Read more about this code: [Security of Handles in Windows](https://glory-part-39d.notion.site/Security-of-Handles-in-Windows-caaa2531a0914ef0b7779ea366f69bcb).
+Read more about this code: [Security of Handles in Windows](https://winsyscall.com/misuse-of-duplicatehandle/).
 
 This code demonstrates how to create a security hole in your program, potentially leading to privilege escalation.
 
